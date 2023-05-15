@@ -1,0 +1,110 @@
+@import url('https://fonts.googleapis.com/css2?family=Lexend+Deca:wght@100;200;300;400;500;600;700;800;900&display=swap');
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Lexend Deca', sans-serif;
+
+}
+
+/* distância 0 para margem e padding  */
+
+body {
+    background-color: #1a1a1a !important;
+}
+
+/* Cor de fundo da página*/
+
+a {
+    color: #fff !important;
+    text-decoration: none !important; 
+    transition: 0.3s;
+    /* links na cor branca e sem sublinhado*/
+}
+
+.termos{
+    color: var(--bs-blue) !important;
+    text-decoration: underline !important;
+}
+
+a:hover {
+    opacity: 0.7 !important;
+}
+
+/* ao passar com o cursor por cima do link a opacidade será a configurada*/
+
+
+.navbar {
+    display: flex;
+    /*Colocar logo e lista um do lado do outro */
+    justify-content: space-around !important;
+    /*Faz com que o espaço ao redor seja metade do espeço entre eles  */
+    align-items: center !important;
+    /*Alinhar verticalmente*/
+    background-color: #1f1f1f !important;
+    color: #b6cfe7 !important;
+    border-bottom: .0625rem solid rgb(255,255,255,0.25);
+}
+
+
+.nav-list li {
+    letter-spacing: 3px;
+    margin-left: 32px;
+}
+li{
+    display: block !important;
+}
+
+.form-control{
+    color: var(--bs-body-color);
+    background-color: var(--bs-body-bg);
+    background-clip: padding-box;
+    border: var(--bs-border-width) solid var(--bs-border-color);
+    --bs-border-color: #495057;
+    --bs-body-color: #fff;
+    --bs-body-bg: #212529;
+}
+::placeholder{
+    color: #fff !important;
+}
+
+.fotologo {
+    filter: invert();
+}
+
+.material-symbols-outlined {
+  font-variation-settings:
+  'FILL' 0,
+  'wght' 400,
+  'GRAD' 0,
+  'opsz' 48;
+  color: #ffff;
+}
+
+.navbar-toggler{
+    border-color: #ffff !important;
+}
+
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 50px;
+    padding: 100px;
+  }
+  
+  .paragrafo {
+    text-align: center
+    ;
+  }
+ 
+  #ok img {
+    float: left;
+    margin-right: 10px;
+}
+
+
+  @media only screen and (max-width: 768px){
+    .container-main {
+      padding-top: 200px;
+    }}
